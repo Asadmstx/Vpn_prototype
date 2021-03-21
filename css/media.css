@@ -1,0 +1,364 @@
+/* @media (max-width: 1440px) {} */
+/* @media (max-width: 1366px) {} */
+/* @media (max-width: 1320px) {} */
+/* @media (max-width: 1290px) {} */
+@media (max-width: 1140px) {
+
+    /* begin start */
+
+    .begin__box:nth-of-type(1) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .begin__content {
+        margin-bottom: 50px;
+    }
+
+    /* begin end */
+}
+
+@media (max-width: 1024px) {
+    /* header satart */
+
+    .haeder__list {
+        display: none;
+    }
+
+    .header__login {
+        display: none;
+    }
+
+    .header__burger {
+        display: block;
+        font-size: 40px;
+        color: var(--color-other);
+    }
+    /* header end */
+
+    /* features start */
+
+    .features__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* features end */
+
+    /* globe start */
+
+    .globe__box {
+        display: none;
+    }
+
+    /* globe end */
+}
+
+@media (max-width: 992px) {
+    /* globe start */
+
+    .globe {
+        padding-bottom: 0;
+    }
+
+    .globe__banner {
+        display: grid;
+        place-items: center;
+    }
+
+    .globe__img {
+        width: 700px;
+    }
+
+    /* globe end */
+}
+
+@media (max-width: 768px) {
+    /* plan satart */
+
+    .plan__box {
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+
+    .plan__card {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    /* plan end */
+}
+
+/* @media (max-width: 736px) {} */
+
+/* @media (max-width: 734px) {} */
+
+@media (max-width: 682px) {
+    /* globe start */
+
+    .globe__img {
+        width: 500px;
+    }
+
+    /* globe end */
+
+    /* rates start */
+
+    .rates__subbox {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* rates end */
+
+    /* footer start */
+
+    .footer__container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer__box:nth-of-type(1) {
+        order: 2;
+        margin-top: 30px;
+    } 
+
+    /* footer end */
+}
+
+@media (max-width: 667px) {
+
+    /* header satart */
+
+    .header__nav {
+        padding: 30px 0;
+    }
+
+    .header__logo-txt {
+        font-size: 15px;
+    }
+
+    .header__burger {
+        font-size: 30px;
+    }
+
+    /* header end */
+
+    /* begin start */
+
+    .begin__title {
+        font-size: 25px;
+    }
+
+    .begin__img {
+        width: 500px;
+    }
+
+    .begin__card-num {
+        font-size: 20px;
+    }
+
+    .begin__ico {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* begin end */
+
+    /* features start */
+
+    .features__title {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+
+    .features__img {
+        width: 500px;
+    }
+
+    /* features end */
+
+    /* plan start */
+
+    .plan__title {
+        font-size: 25px;
+    }
+
+    /* plan end */
+
+    /* globe start */
+
+    .globe__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    /* globe end */
+
+    /* rates start */
+
+    .rates__title {
+        font-size: 25px;
+    }
+
+    .rates__subbox-title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    .rates__arrow {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    /* rates end */
+}
+
+@media (max-width: 576px) {
+
+    .txt {
+        font-size: 11px;
+    }
+
+    .link {
+        font-size: 12px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /* begin start */
+
+    .begin__img {
+        width: 350px;
+    }
+
+    .begin__box:nth-of-type(2) {
+        padding: 15px 0;
+    }
+
+    .begin__ico {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    .begin__card-icon {
+        font-size: 15px;
+    }
+
+    .begin__card-num {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .begin__card-sub {
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    /* begin end */
+
+    /* features start */
+
+    .features__img {
+        width: 350px;
+    }
+
+    /* features end */
+
+    /* golobe start */
+
+    .globe {
+        padding: 0;
+    }
+
+    .globe__img {
+        width: 350px;
+    }
+
+    .globe__subtitle {
+        margin-bottom: 20px;
+    }
+
+    /* golobe end */
+}
+
+/* @media (max-width: 414px) {} */
+
+/* @media (max-width: 412px) {} */
+
+@media (max-width: 375px) {
+    /* begin start */
+
+    .begin__img {
+        width: 250px;
+    }
+
+    
+    /* begin end */
+
+    /* plan start */
+
+    .plan__card-price {
+        font-size: 14px;
+    }
+
+    /* plan end */
+    
+    /* features start */
+    
+    .features {
+        padding: 40px 0;
+    }
+
+    .features__img {
+        width: 250px;
+    }
+
+    /* features end */
+
+    /* globe start */
+
+    .globe__img {
+        width: 250px;
+    }
+
+    /* globe end */
+
+    /* rates start */
+
+    .rates {
+        padding-top: 0;
+    }
+
+    .rates__subbox-title {
+        font-size: 16px;
+    }
+
+    .rates__subbox-btn {
+        font-size: 11px;
+        max-width: 150px;
+    }
+
+    /* rates end */
+
+    /* footer start */
+
+    .footer {
+        padding-bottom: 50px;
+    }
+
+    .footer__card-name {
+        font-size: 16px;
+    }
+
+    /* footer end */
+}
+
+/* @media (max-width: 320px) {} */
